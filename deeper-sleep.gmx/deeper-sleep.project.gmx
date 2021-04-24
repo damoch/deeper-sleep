@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\main_theme</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\amazonbar_logo</sprite>
   </sprites>
@@ -13,17 +15,21 @@
   <fonts name="fonts">
     <font>fonts\fnt_AmazonbarLogo</font>
     <font>fonts\fnt_AmazonbarSoftwareLogo</font>
+    <font>fonts\fnt_Title</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_AmazonbarLogoBig</object>
     <object>objects\eff_FadeToBlack</object>
+    <object>objects\obj_AmazonbarLogoBig</object>
     <object>objects\obj_logo_room_ctrl</object>
     <object>objects\eff_FadeIn</object>
     <object>objects\obj_AmazonbarSoftwareLogo</object>
+    <object>objects\obj_debug</object>
+    <object>objects\obj_MainLogo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\logo</room>
     <room>rooms\menu</room>
+    <room>rooms\experiment</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
