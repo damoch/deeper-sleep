@@ -10,14 +10,20 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_AmazonbarLogo</font>
+    <font>fonts\fnt_AmazonbarSoftwareLogo</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\obj_amazonbar_logo</object>
+    <object>objects\obj_AmazonbarLogoBig</object>
     <object>objects\eff_FadeToBlack</object>
     <object>objects\obj_logo_room_ctrl</object>
     <object>objects\eff_FadeIn</object>
+    <object>objects\obj_AmazonbarSoftwareLogo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\logo</room>
+    <room>rooms\menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
