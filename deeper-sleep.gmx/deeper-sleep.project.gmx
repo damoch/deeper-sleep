@@ -5,9 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\amazonbar_logo</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_amazonbar_logo</object>
+    <object>objects\eff_FadeToBlack</object>
+    <object>objects\obj_logo_room_ctrl</object>
+    <object>objects\eff_FadeIn</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\logo</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
