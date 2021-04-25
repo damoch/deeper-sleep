@@ -10,6 +10,7 @@
     <sound>sound\main_theme</sound>
     <sound>sound\snd_correct_answer</sound>
     <sound>sound\snd_wrong_answer</sound>
+    <sound>sound\snd_chapter_start</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\amazonbar_logo</sprite>
@@ -49,19 +50,23 @@
     <object>objects\obj_Eula</object>
     <object>objects\obj_WelcomeMessage</object>
     <object>objects\obj_QuizWelcome</object>
+    <object>objects\obj_ChapterStart</object>
+    <object>objects\obj_LectureStart</object>
     <object>objects\obj_Question1</object>
     <object>objects\obj_Question2</object>
     <object>objects\obj_Question3</object>
     <object>objects\obj_Question4</object>
     <object>objects\obj_Question5</object>
     <object>objects\obj_QuizEnding</object>
+    <object>objects\obj_TableOfContents</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\table_of_contents</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
     <room>rooms\quiz</room>
-    <room>rooms\table_of_contents</room>
+    <room>rooms\lecture</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
