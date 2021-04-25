@@ -25,6 +25,7 @@
     <sprite>sprites\spr_viet</sprite>
     <sprite>sprites\spr_brain</sprite>
     <sprite>sprites\spr_lizard</sprite>
+    <sprite>sprites\spr_square</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -81,9 +82,11 @@
     <object>objects\obj_ChapterEnd</object>
     <objects name="tasks">
       <object>objects\obj_rhythm</object>
+      <object>objects\obj_rect</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\calibration3</room>
     <room>rooms\calibration2</room>
     <room>rooms\calibration</room>
     <room>rooms\calibration1</room>
