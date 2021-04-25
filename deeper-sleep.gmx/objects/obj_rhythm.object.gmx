@@ -82,7 +82,7 @@ alarm[0] = room_speed;
           <argument>
             <kind>1</kind>
             <string>
-
+audio_stop_all()
 if(current_step == num_of_steps){
     if(!pressed_in_cycle){
         hits = 0;
@@ -92,6 +92,7 @@ if(current_step == num_of_steps){
 }
 current_step++;
 if(current_step == middle_step){
+    audio_play_sound(snd_beep,1,1)
     alarm[0] = room_speed * 2;
 }
 else{

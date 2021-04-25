@@ -11,6 +11,7 @@
     <sound>sound\snd_correct_answer</sound>
     <sound>sound\snd_wrong_answer</sound>
     <sound>sound\snd_chapter_start</sound>
+    <sound>sound\snd_beep</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\amazonbar_logo</sprite>
@@ -27,7 +28,9 @@
     <sprite>sprites\spr_lizard</sprite>
     <sprite>sprites\spr_square</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_misc_bg.shader</shader>
@@ -83,13 +86,19 @@
     <objects name="tasks">
       <object>objects\obj_rhythm</object>
       <object>objects\obj_rect</object>
+      <object>objects\obj_words_calibration</object>
+      <object>objects\obj_imageTest</object>
+      <object>objects\obj_blackout</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\calibration3</room>
-    <room>rooms\calibration2</room>
+    <room>rooms\calibration4</room>
+    <room>rooms\black_screen</room>
+    <room>rooms\calibration5</room>
     <room>rooms\calibration</room>
     <room>rooms\calibration1</room>
+    <room>rooms\calibration2</room>
+    <room>rooms\calibration3</room>
     <room>rooms\lecture</room>
     <room>rooms\lecture1</room>
     <room>rooms\lecture2</room>

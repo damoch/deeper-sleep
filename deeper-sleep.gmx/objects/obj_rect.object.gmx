@@ -83,6 +83,7 @@ if(distance_to_object(o) &lt; 1){
     hit = true;
     o.hit = true
     alarm[0] = 2*room_speed
+    audio_play_sound(snd_correct_answer, 1, 0)
 }
 }
 </string>
