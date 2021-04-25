@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>draw = false
 alarm[0] = 1
-next_question = obj_Question4
+next_question = obj_QuizEnding
 correct_answer = 1;
 answered = false;
 
@@ -126,7 +126,7 @@ instance_destroy()
             <kind>1</kind>
             <string>if(draw){
     draw_set_font(fnt_AmazonbarSoftwareLogo)
-    draw_text(x,y,  "Is Amazonbar Industries environmentally aware company?")
+    draw_text(x,y,  "QUESTION: Is sleep important for your well-being?")
     
     if(answered){
         draw_set_colour(c_green)
@@ -140,11 +140,9 @@ instance_destroy()
     draw_text(x,y+130, "2. No")
     if(show_explaination){      
          
-        draw_text(x,y+200, "Yes, in fact, Amazonbar Industries is a champion of environmental protection! ")
-        draw_text(x,y+220, "Our experts lead hundreds of lectures on environmental protection in local")
-        draw_text(x,y+240, "schools in almost every country on Earth! Our headquarter in New York City ")
-        draw_text(x,y+260, "is a blueprint for a future of carbon-neutral buildings.")
-        
+        draw_text(x,y+200, "Yes! Sleep is crucial way for body and mind to rest.")
+        draw_text(x,y+220, "Adult person should sleep around 8 hours per day.")
+  
         
         draw_text(x,y+300, "Press ENTER to continue")
     }

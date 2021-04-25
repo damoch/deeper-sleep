@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>draw = false
 alarm[0] = 1
-next_question = obj_Question4
-correct_answer = 1;
+next_question = obj_Question5
+correct_answer = 2;
 answered = false;
 
 show_explaination = false;
@@ -126,24 +126,28 @@ instance_destroy()
             <kind>1</kind>
             <string>if(draw){
     draw_set_font(fnt_AmazonbarSoftwareLogo)
-    draw_text(x,y,  "Is Amazonbar Industries environmentally aware company?")
+    draw_text(x,y, "QUESTION: One of your friends has criticized Amazonbar Industries for suing journalists,")    
+    draw_text(x,y+20, "who wrote a piece about treatment of its workers in one of its LDC’s. How should you")  
+    draw_text(x,y+40, "respond?")
     
+    draw_text(x,y+100, "1. Say nothing")    
     if(answered){
         draw_set_colour(c_green)
     }
-    draw_text(x,y+100, "1. Yes")
-    
+    draw_text(x,y+130, "2. Explain, that situation is more complex that it seems ")
     if(answered){
         draw_set_colour(c_white)
     }
+    draw_text(x,y+160, "3. Say something about danger that it represents to freedom of speech ")
+    
 
-    draw_text(x,y+130, "2. No")
+
     if(show_explaination){      
-         
-        draw_text(x,y+200, "Yes, in fact, Amazonbar Industries is a champion of environmental protection! ")
-        draw_text(x,y+220, "Our experts lead hundreds of lectures on environmental protection in local")
-        draw_text(x,y+240, "schools in almost every country on Earth! Our headquarter in New York City ")
-        draw_text(x,y+260, "is a blueprint for a future of carbon-neutral buildings.")
+
+        draw_text(x,y+200, "Exactly. Sometimes journalists write their pieces without listening")
+        draw_text(x,y+220, "to other side of the argument, and in that situation,")
+        draw_text(x,y+240, "we were given no opportunity to tell our part of the story. Amazonbar Industries has a moral right")
+        draw_text(x,y+260, "to protect our public image, especially considering all the good we do.")
         
         
         draw_text(x,y+300, "Press ENTER to continue")
