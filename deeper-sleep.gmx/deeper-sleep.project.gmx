@@ -8,6 +8,8 @@
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\main_theme</sound>
+    <sound>sound\snd_correct_answer</sound>
+    <sound>sound\snd_wrong_answer</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\amazonbar_logo</sprite>
@@ -46,12 +48,16 @@
     <object>objects\oKNT</object>
     <object>objects\obj_Eula</object>
     <object>objects\obj_WelcomeMessage</object>
+    <object>objects\obj_QuizWelcome</object>
+    <object>objects\obj_Question1</object>
+    <object>objects\obj_Question2</object>
+    <object>objects\obj_Question3</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\quiz</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
-    <room>rooms\quiz</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
