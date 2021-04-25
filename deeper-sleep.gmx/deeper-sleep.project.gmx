@@ -55,6 +55,7 @@
     <object>objects\obj_WelcomeMessage</object>
     <object>objects\obj_QuizWelcome</object>
     <object>objects\obj_ChapterStart</object>
+    <object>objects\obj_CalibrationStart</object>
     <object>objects\obj_LectureStart</object>
     <object>objects\obj_Question1</object>
     <object>objects\obj_Question2</object>
@@ -63,6 +64,7 @@
     <object>objects\obj_Question5</object>
     <object>objects\obj_QuizEnding</object>
     <object>objects\obj_TableOfContents</object>
+    <object>objects\obj_CalibrationInstruction</object>
     <object>objects\obj_SlideController</object>
     <objects name="lecture_images">
       <object>objects\cia</object>
@@ -77,17 +79,23 @@
       <object>objects\obj_slide3</object>
     </objects>
     <object>objects\obj_ChapterEnd</object>
+    <objects name="tasks">
+      <object>objects\obj_rhythm</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\calibration2</room>
+    <room>rooms\calibration</room>
+    <room>rooms\calibration1</room>
     <room>rooms\lecture</room>
     <room>rooms\lecture1</room>
     <room>rooms\lecture2</room>
     <room>rooms\lecture3</room>
     <room>rooms\lecture_end</room>
+    <room>rooms\quiz</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
-    <room>rooms\quiz</room>
     <room>rooms\table_of_contents</room>
   </rooms>
   <help>
