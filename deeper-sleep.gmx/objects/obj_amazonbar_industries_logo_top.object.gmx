@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>draw_self()
 draw_set_font(fnt_AmazonbarSoftwareLogo)
-draw_text(x+25, y, "Amazonbar")
-draw_text(x+25, y+25, "Industries")
+draw_text(x+50, y, "Amazonbar")
+draw_text(x+50, y+25, "Industries")
 </string>
           </argument>
         </arguments>

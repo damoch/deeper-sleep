@@ -34,8 +34,8 @@
     <font>fonts\fnt_Title</font>
   </fonts>
   <objects name="objects">
-    <object>objects\oBJORTFX</object>
     <object>objects\eff_FadeToBlack</object>
+    <object>objects\oBJORTFX</object>
     <object>objects\obj_AmazonbarLogoBig</object>
     <object>objects\obj_logo_room_ctrl</object>
     <object>objects\eff_FadeIn</object>
@@ -44,11 +44,14 @@
     <object>objects\obj_MainLogo</object>
     <object>objects\obj_amazonbar_industries_logo_top</object>
     <object>objects\oKNT</object>
+    <object>objects\obj_Eula</object>
+    <object>objects\obj_WelcomeMessage</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
+    <room>rooms\quiz</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
