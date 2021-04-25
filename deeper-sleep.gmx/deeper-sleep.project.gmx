@@ -21,6 +21,10 @@
     <sprite>sprites\texRainbowLUT</sprite>
     <sprite>sprites\texShadowMask</sprite>
     <sprite>sprites\texTwister</sprite>
+    <sprite>sprites\spr_cia</sprite>
+    <sprite>sprites\spr_viet</sprite>
+    <sprite>sprites\spr_brain</sprite>
+    <sprite>sprites\spr_lizard</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -59,14 +63,32 @@
     <object>objects\obj_Question5</object>
     <object>objects\obj_QuizEnding</object>
     <object>objects\obj_TableOfContents</object>
+    <object>objects\obj_SlideController</object>
+    <objects name="lecture_images">
+      <object>objects\cia</object>
+      <object>objects\viet</object>
+      <object>objects\amazonbar</object>
+      <object>objects\brain</object>
+      <object>objects\lizard</object>
+    </objects>
+    <objects name="slide_texts">
+      <object>objects\obj_slide1</object>
+      <object>objects\obj_slide2</object>
+      <object>objects\obj_slide3</object>
+    </objects>
+    <object>objects\obj_ChapterEnd</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\table_of_contents</room>
+    <room>rooms\lecture</room>
+    <room>rooms\lecture1</room>
+    <room>rooms\lecture2</room>
+    <room>rooms\lecture3</room>
+    <room>rooms\lecture_end</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
     <room>rooms\quiz</room>
-    <room>rooms\lecture</room>
+    <room>rooms\table_of_contents</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

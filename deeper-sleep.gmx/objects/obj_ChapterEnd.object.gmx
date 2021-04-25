@@ -25,83 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw = false
-draw_subtitle = false;
-alarm[0] = 2 * room_speed
-next_question = obj_Question1
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>room_goto_next()
-instance_destroy()
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_subtitle = true
-alarm[2] = 2* room_speed;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw = true
-audio_play_sound(snd_chapter_start,1,0)
-alarm[1] = room_speed;
+            <string>audio_play_sound(snd_correct_answer, 1, 0)
 </string>
           </argument>
         </arguments>
@@ -124,16 +48,33 @@ alarm[1] = room_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(draw){
-    draw_set_font(fnt_AmazonbarLogo)
-    draw_text(x,y, "EXPERIMENT STAGE 1 ")
-    if(draw_subtitle){    
-        draw_set_font(fnt_AmazonbarSoftwareLogo)
-        draw_text(x,y+30, "LECTURE")
-    
-    }
-}
-
+            <string>draw_set_font(fnt_AmazonbarSoftwareLogo)
+draw_text(20,20,"This concludes LECTURE")
+draw_text(20,40,"Press ENTER key to proceed to DEEP SLEEP")
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="13">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>eff = instance_create(x,y,eff_FadeToBlack)
+eff.newRoom = room_next(room)
 </string>
           </argument>
         </arguments>
