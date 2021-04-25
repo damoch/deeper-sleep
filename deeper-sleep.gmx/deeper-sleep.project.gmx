@@ -3,21 +3,38 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\BJÖRTFX</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\main_theme</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\amazonbar_logo</sprite>
+    <sprite>sprites\spr_uicheck</sprite>
+    <sprite>sprites\spr_uiwhitepixel</sprite>
+    <sprite>sprites\sprLogo</sprite>
+    <sprite>sprites\texBluenoise</sprite>
+    <sprite>sprites\texRainbowLUT</sprite>
+    <sprite>sprites\texShadowMask</sprite>
+    <sprite>sprites\texTwister</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shd_misc_bg.shader</shader>
+    <shader type="GLSLES">shaders\shd_misc_twister.shader</shader>
+    <shader type="GLSLES">shaders\shd_retroscreen_distortion.shader</shader>
+    <shader type="GLSLES">shaders\shd_retroscreen_postprocessing.shader</shader>
+    <shader type="GLSLES">shaders\shd_retroscreen_screenfilter.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_AmazonbarLogo</font>
     <font>fonts\fnt_AmazonbarSoftwareLogo</font>
     <font>fonts\fnt_Title</font>
   </fonts>
   <objects name="objects">
+    <object>objects\oBJORTFX</object>
     <object>objects\eff_FadeToBlack</object>
     <object>objects\obj_AmazonbarLogoBig</object>
     <object>objects\obj_logo_room_ctrl</object>
@@ -25,11 +42,13 @@
     <object>objects\obj_AmazonbarSoftwareLogo</object>
     <object>objects\obj_debug</object>
     <object>objects\obj_MainLogo</object>
+    <object>objects\obj_amazonbar_industries_logo_top</object>
+    <object>objects\oKNT</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\logo</room>
     <room>rooms\menu</room>
-    <room>rooms\experiment</room>
+    <room>rooms\eula</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
