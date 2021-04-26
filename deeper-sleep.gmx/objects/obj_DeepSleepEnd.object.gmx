@@ -49,8 +49,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt_AmazonbarSoftwareLogo)
-draw_text(20,20,"This concludes LECTURE")
-draw_text(20,40,"Press ENTER key to proceed to CALIBRATION")
+draw_text(20,20,"DEEP/SLEEP/END")
+draw_text(20,40,"ENTER/DEEPER")
 </string>
           </argument>
         </arguments>

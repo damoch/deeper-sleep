@@ -30,6 +30,12 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <shaders name="shaders">
@@ -83,6 +89,7 @@
       <object>objects\obj_slide3</object>
     </objects>
     <object>objects\obj_ChapterEnd</object>
+    <object>objects\obj_CalibrationChapterEnd</object>
     <objects name="tasks">
       <object>objects\obj_rhythm</object>
       <object>objects\obj_rect</object>
@@ -90,25 +97,62 @@
       <object>objects\obj_imageTest</object>
       <object>objects\obj_blackout</object>
     </objects>
+    <objects name="calibration_instructuions">
+      <object>objects\instr0</object>
+      <object>objects\inst1</object>
+      <object>objects\inst2</object>
+      <object>objects\inst3</object>
+    </objects>
+    <objects name="deep_sleep">
+      <object>objects\obj_ChapterStartDeepSleep</object>
+      <object>objects\obj_DeepSleepInst</object>
+      <object>objects\obj_DeepSleepEnd</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\calibration4</room>
-    <room>rooms\black_screen</room>
-    <room>rooms\calibration5</room>
-    <room>rooms\calibration</room>
-    <room>rooms\calibration1</room>
-    <room>rooms\calibration2</room>
-    <room>rooms\calibration3</room>
+    <room>rooms\deep_sleep</room>
+    <room>rooms\deep_sleep_inst</room>
+    <room>rooms\deep_sleep1</room>
+    <room>rooms\deep_sleep2</room>
+    <room>rooms\deep_sleep3</room>
+    <room>rooms\deep_sleep4</room>
+    <room>rooms\deep_sleep5</room>
+    <room>rooms\deep_sleep6</room>
+    <room>rooms\dark</room>
+    <room>rooms\deep_sleep7</room>
+    <room>rooms\deep_sleep8</room>
+    <room>rooms\deep_sleep9</room>
+    <room>rooms\deep_sleep10</room>
+    <room>rooms\deep_sleep11</room>
+    <room>rooms\deep_sleep12</room>
+    <room>rooms\deep_sleep13</room>
+    <room>rooms\deep_sleep14</room>
+    <room>rooms\deep_sleep15</room>
+    <room>rooms\deep_sleep16</room>
+    <room>rooms\deep_sleep17</room>
+    <room>rooms\deep_sleep18</room>
+    <room>rooms\deep_sleep19</room>
+    <room>rooms\deep_sleep20</room>
+    <room>rooms\deep_sleep_end</room>
+    <room>rooms\logo</room>
+    <room>rooms\menu</room>
+    <room>rooms\eula</room>
+    <room>rooms\quiz</room>
+    <room>rooms\table_of_contents</room>
     <room>rooms\lecture</room>
     <room>rooms\lecture1</room>
     <room>rooms\lecture2</room>
     <room>rooms\lecture3</room>
     <room>rooms\lecture_end</room>
-    <room>rooms\quiz</room>
-    <room>rooms\logo</room>
-    <room>rooms\menu</room>
-    <room>rooms\eula</room>
-    <room>rooms\table_of_contents</room>
+    <room>rooms\calibration</room>
+    <room>rooms\calibration1</room>
+    <room>rooms\calibration2</room>
+    <room>rooms\calibration3</room>
+    <room>rooms\black_screen_instruction</room>
+    <room>rooms\calibration4</room>
+    <room>rooms\black_screen</room>
+    <room>rooms\calibration5</room>
+    <room>rooms\calibration_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
