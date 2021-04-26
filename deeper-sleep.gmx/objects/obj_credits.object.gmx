@@ -8,6 +8,30 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_stop_all()
+audio_play_sound(main_theme,1,1)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -26,18 +50,24 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt_AmazonbarSoftwareLogo)
-draw_text(x,y,"AND NOW WE MADE SURE YOU WILL STAY ASLEEP. WE WON INSECT")
-draw_text(x,y+80,"EXPERIMENT HAS CONCLUDED. YOU ARE NOW PERFECT AMAZONBAR INDUSTRIES ")
-draw_text(x,y+100,"EMPLOYEE. ")
-draw_text(x,y+200,"THANK YOU")
-draw_text(x,y+300,"Press ENTER to FALL ASLEEP")
+draw_text(x,y,"d e e p e r  s l e e p")
+draw_text(x,y+20,"an interactive experience by Kszaku (aka dam0ch)")
+draw_text(x,y+40,"Inspired by LOCAL58 - REAL SLEEP")
+draw_text(x,y+60,"(you can find it on YouTube)")
+draw_text(x,y+80,"please, check art.txt for credits on art used")
+
+draw_text(x,y+100,"follow me on twitter - @dam0ch")
+draw_text(x,y+120,"check my other games - https://damoch.itch.io/")
+draw_text(x,y+160,"thanks for playing")
+draw_text(x,y+200,"Made for Ludum Dare 48 in April 2021")
+draw_text(x,y+240,"press ESCAPE to wake up")
 
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="13">
+    <event eventtype="10" enumb="27">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -54,8 +84,7 @@ draw_text(x,y+300,"Press ENTER to FALL ASLEEP")
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>eff = instance_create(x,y,eff_FadeToBlack)
-eff.newRoom = room_next(room)
+            <string>game_end()
 </string>
           </argument>
         </arguments>

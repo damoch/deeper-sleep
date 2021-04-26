@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_AmazonbarSoftwareLogo)
 draw_text(x,y,"Motorical calibration")
-draw_text(x-200,y+20,"Use your mouse to pull both shapes together")
+draw_text(x-200,y+20,"Use your mouse (LMB) to pull both shapes together")
 </string>
           </argument>
         </arguments>

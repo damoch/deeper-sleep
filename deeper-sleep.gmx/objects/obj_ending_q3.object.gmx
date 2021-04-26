@@ -149,7 +149,7 @@ instance_destroy()
         draw_text(x,y+330, "POOR.")
         
         
-        draw_text(x,y+360, "Press ENTER to continue")
+        draw_text(x,y+360, "Press ENTER to  FALL DEEPER INTO DREAM")
     }
 }
 

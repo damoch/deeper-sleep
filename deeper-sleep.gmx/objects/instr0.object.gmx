@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_AmazonbarSoftwareLogo)
 draw_text(x,y,"Rhythmic calibration")
-draw_text(x-250,y+20,"Push the button when you hear audio cue and see the big circle")
+draw_text(x-250,y+20,"Push the SPACEBAR button when you hear audio cue and see the big circle")
 </string>
           </argument>
         </arguments>

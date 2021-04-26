@@ -149,7 +149,7 @@ instance_destroy()
         draw_text(x,y+240, "RESPONSIBILITY GOD DAMNIT! ")
         
         
-        draw_text(x,y+300, "Press ENTER to continue")
+        draw_text(x,y+300, "Press ENTER to  FALL DEEPER INTO DREAM")
     }
 }
 

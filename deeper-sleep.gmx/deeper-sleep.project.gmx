@@ -137,12 +137,9 @@
       <object>objects\obj_ending_q5</object>
       <object>objects\ending_quiz_final</object>
     </objects>
+    <object>objects\obj_credits</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\ending_quiz</room>
-    <room>rooms\ending2</room>
-    <room>rooms\ending</room>
-    <room>rooms\ending1</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
@@ -203,6 +200,11 @@
     <room>rooms\deeper_sleep13</room>
     <room>rooms\deeper_sleep14</room>
     <room>rooms\bluescreen</room>
+    <room>rooms\ending</room>
+    <room>rooms\ending1</room>
+    <room>rooms\ending2</room>
+    <room>rooms\ending_quiz</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

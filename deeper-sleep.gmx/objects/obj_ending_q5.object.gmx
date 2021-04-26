@@ -150,7 +150,7 @@ instance_destroy()
         draw_text(x,y+340, "YOUR FELLOW PEOPLE.")
   
         
-        draw_text(x,y+380, "Press ENTER to continue")
+        draw_text(x,y+380, "Press ENTER to  FALL DEEPER INTO DREAM")
     }
 }
 
