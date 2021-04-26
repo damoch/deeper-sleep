@@ -125,25 +125,24 @@
       <object>objects\obj_deeper_sleep_inst</object>
       <object>objects\obj_audio_man</object>
     </objects>
+    <objects name="ending">
+      <object>objects\obj_programming</object>
+      <object>objects\obj_ChapterStartEnding</object>
+      <object>objects\obj_ending_text</object>
+      <object>objects\obj_ending_quiz_start</object>
+      <object>objects\obj_ending_q1</object>
+      <object>objects\obj_ending_q2</object>
+      <object>objects\obj_ending_q3</object>
+      <object>objects\obj_ending_q4</object>
+      <object>objects\obj_ending_q5</object>
+      <object>objects\ending_quiz_final</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\bluescreen</room>
-    <room>rooms\deeper_sleep_entry</room>
-    <room>rooms\deeper_sleep0</room>
-    <room>rooms\deeper_sleep1</room>
-    <room>rooms\deeper_sleep2</room>
-    <room>rooms\deeper_sleep3</room>
-    <room>rooms\deeper_sleep4</room>
-    <room>rooms\deeper_sleep5</room>
-    <room>rooms\deeper_sleep6</room>
-    <room>rooms\deeper_sleep7</room>
-    <room>rooms\deeper_sleep8</room>
-    <room>rooms\deeper_sleep9</room>
-    <room>rooms\deeper_sleep10</room>
-    <room>rooms\deeper_sleep11</room>
-    <room>rooms\deeper_sleep12</room>
-    <room>rooms\deeper_sleep13</room>
-    <room>rooms\deeper_sleep14</room>
+    <room>rooms\ending_quiz</room>
+    <room>rooms\ending2</room>
+    <room>rooms\ending</room>
+    <room>rooms\ending1</room>
     <room>rooms\logo</room>
     <room>rooms\menu</room>
     <room>rooms\eula</room>
@@ -187,6 +186,23 @@
     <room>rooms\deep_sleep19</room>
     <room>rooms\deep_sleep20</room>
     <room>rooms\deep_sleep_end</room>
+    <room>rooms\deeper_sleep_entry</room>
+    <room>rooms\deeper_sleep0</room>
+    <room>rooms\deeper_sleep1</room>
+    <room>rooms\deeper_sleep2</room>
+    <room>rooms\deeper_sleep3</room>
+    <room>rooms\deeper_sleep4</room>
+    <room>rooms\deeper_sleep5</room>
+    <room>rooms\deeper_sleep6</room>
+    <room>rooms\deeper_sleep7</room>
+    <room>rooms\deeper_sleep8</room>
+    <room>rooms\deeper_sleep9</room>
+    <room>rooms\deeper_sleep10</room>
+    <room>rooms\deeper_sleep11</room>
+    <room>rooms\deeper_sleep12</room>
+    <room>rooms\deeper_sleep13</room>
+    <room>rooms\deeper_sleep14</room>
+    <room>rooms\bluescreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

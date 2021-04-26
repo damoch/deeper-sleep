@@ -25,9 +25,37 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>start_draw = false
-alarm[0] = room_speed/2;
+            <string>draw = false
+draw_subtitle = false;
 
+draw_real = false
+draw_subtitle_real = false;
+
+alarm[0] = 2 * room_speed
+next_question = obj_Question1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>room_goto_next()
 </string>
           </argument>
         </arguments>
@@ -50,7 +78,12 @@ alarm[0] = room_speed/2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(ending)
+            <string>draw = false
+
+draw_real = true
+draw_subtitle_real = true;
+
+alarm[2] = 2* room_speed;
 </string>
           </argument>
         </arguments>
@@ -73,8 +106,9 @@ alarm[0] = room_speed/2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>start_draw = true
-alarm[1] = room_speed
+            <string>draw = true
+audio_play_sound(snd_chapter_start,1,0)
+alarm[1] = room_speed;
 </string>
           </argument>
         </arguments>
@@ -97,19 +131,21 @@ alarm[1] = room_speed
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(start_draw)
-{
-    draw_set_font(fnt_AmazonbarSoftwareLogo)
-    draw_text(x,y, "STACK OVERFLOW EXCEPTION IN MAIN THREAD main.cpp(21,37)")
+            <string>if(draw){
 
-    draw_text(x,y+40, "MEMORY DUMPED: 0x8627b1 0x5ecf23 0x5c7295 0xe1c519 0xa3aed8 0x5423a6 0x1f2181")
-    draw_text(x,y+80, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+100, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+120, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+140, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+160, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    
+    draw_set_font(fnt_AmazonbarLogo)
+    draw_text(x,y, "[NOT AVAILABLE IN BETA]")
 }
+if(draw_real){
+    draw_set_font(fnt_AmazonbarLogo)
+    draw_text(x,y, "EXPERIMENT FINAL STAGE ")
+    if(draw_subtitle_real){    
+        draw_set_font(fnt_AmazonbarSoftwareLogo)
+        draw_text(x,y+30, "ANCIENT LIZARD BRAIN PROGRAMMING")
+    
+    }
+}
+
 </string>
           </argument>
         </arguments>

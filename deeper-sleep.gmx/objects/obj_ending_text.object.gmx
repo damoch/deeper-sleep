@@ -33,29 +33,6 @@ alarm[0] = room_speed/2;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>room_goto(ending)
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -74,7 +51,6 @@ alarm[0] = room_speed/2;
           <argument>
             <kind>1</kind>
             <string>start_draw = true
-alarm[1] = room_speed
 </string>
           </argument>
         </arguments>
@@ -100,16 +76,41 @@ alarm[1] = room_speed
             <string>if(start_draw)
 {
     draw_set_font(fnt_AmazonbarSoftwareLogo)
-    draw_text(x,y, "STACK OVERFLOW EXCEPTION IN MAIN THREAD main.cpp(21,37)")
-
-    draw_text(x,y+40, "MEMORY DUMPED: 0x8627b1 0x5ecf23 0x5c7295 0xe1c519 0xa3aed8 0x5423a6 0x1f2181")
-    draw_text(x,y+80, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+100, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+120, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+140, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
-    draw_text(x,y+160, "0x97b6cf 0xbe871b 0xcbd514 0x8ebf4e 0xf9ae65 0xdfb122 0xa3b1df 0x6a3103 0xadb339")
+    draw_text(x,y, "PUTTING ANCIENT LIZARD BRAIN TO SLEEP, EXPOSES IT TO BEING PROGRAMMED")
+    draw_text(x,y+40, "BY AN OUTSIDE AGENT.")
+    draw_text(x,y+60, "SUCH PROGRAMMING HAS PRACTICALLY NO LIMITS. THE ANCIENT LIZARD BRAIN")
+    draw_text(x,y+80, "WORKS LIKE A COMPUTER IN THAT REGARD. ")
     
+    
+    draw_text(x,y+100, "THIS SOFTWARE WILL NOW PROGRAM YOUR ANCIENT LIZARD BRAIN TO BECOME")
+    draw_text(x,y+120, "BEST, MOST LOYAL AMAZONBAR EMPLOYEE/SLAVE POSSIBLE.")
+    
+    draw_text(x,y+200, "Press ENTER to proceed")
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="13">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>eff = instance_create(x,y,eff_FadeToBlack)
+eff.newRoom = room_next(room)
 </string>
           </argument>
         </arguments>
